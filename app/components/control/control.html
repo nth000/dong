@@ -71,8 +71,6 @@
                                         
                                         <th ng-class="vm.manual_1?'enable':''">ĐÈN</th>
                                         <th ng-class="vm.manual_1?'enable':''">BƠM</th>
-                                        <th ng-class="vm.manual_1?'enable':''">QUẠT</th>
-                                        <th ng-class="vm.manual_1?'enable':''">LÒ SƯỞI</th>
                                     </tr>
                                     <tbody>
                                         <tr>
@@ -87,6 +85,25 @@
                <div class="slider"></div>
                    </label>
                                             </td>
+                                            
+                                            
+                                        </tr>
+                                    </tbody>
+                                </thead>
+                            </table>
+
+                            <table class="table table-hover table-siped table-bordered table-advanced tablesorter">
+                                <thead>
+                                    <tr>
+                                        
+                                        
+                                        <th ng-class="vm.manual_1?'enable':''">QUẠT</th>
+                                        <th ng-class="vm.manual_1?'enable':''">LÒ SƯỞI</th>
+                                    </tr>
+                                    <tbody>
+                                        <tr>
+                                            
+                                            
                                             <td><label class="switch">
                            <input type="checkbox" ng-disabled="!vm.connected1 || vm.wait1  || !vm.manual_1" ng-checked="vm.fan_1"  ng-click="vm.fan1Change()">
                             <div class="slider"></div>
@@ -99,6 +116,7 @@
                                     </tbody>
                                 </thead>
                             </table>
+
                             
                         </div>
                         <div class="form-action">
