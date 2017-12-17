@@ -30,7 +30,7 @@
                 lowHud: 70
             },
             {
-                type: "RAU CẢU BẮP",
+                type: "RAU CẢI BẮP",
                 highTemp: 20,
                 lowTemp: 18,
                 highHud: 85,
