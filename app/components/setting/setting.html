@@ -17,24 +17,50 @@
                                 <thead>
                                     <tr>
                                         <th>LOẠI CÂY</th>
-                                        
-                                        <th>NHIỆT ĐỘ CAO NHẤT</th>
-                                        
-                                        <th>NHIỆT ĐỘ THẤP NHẤT</th>
-                                        
-                                        <th>ĐỘ ẨM ĐẤT CAO NHẤT</th>
-                                        
-                                        <th>ĐỘ ẨM ĐẤT THẤP NHẤT</th>
                                     </tr>
                                     <tbody>
                                         <td> <select style="width:100%" id="extra-service" lang="en" class="form-control" ng-model="vm.item1"
                                                ng-change="vm.zone1Change(vm.item1)" ng-options="et as et.type for et in vm.zone1 track by et.type"></select></td>
+                                    </tbody>
+
+                                    <tr>
+                                        
+                                        <th>NHIỆT ĐỘ CAO NHẤT</th>
+                                        
+                                    </tr>
+                                    <tbody>
                                         
                                         <td><input type="number" ng-model="vm.item1.highTemp " /></td>
                                         
+                                    </tbody>
+
+                                    <tr>
+                                        
+                                        <th>NHIỆT ĐỘ THẤP NHẤT</th>
+                                       
+                                    </tr>
+                                    <tbody>
+                                        
                                         <td><input type="number" ng-model="vm.item1.lowTemp " /></td>
                                         
+                                    </tbody>
+
+                                    <tr>
+                                        
+                                        <th>ĐỘ ẨM ĐẤT CAO NHẤT</th>
+                                        
+                                    </tr>
+                                    <tbody>
+                                        
                                         <td><input type="number" ng-model="vm.item1.highHud " /></td>
+                                        
+                                    </tbody>
+
+                                    <tr>
+                                        
+                                        <th>ĐỘ ẨM ĐẤT THẤP NHẤT</th>
+                                    </tr>
+                                    <tbody>
                                         
                                         <td><input type="number" ng-model="vm.item1.lowHud " /></td>
                                     </tbody>
